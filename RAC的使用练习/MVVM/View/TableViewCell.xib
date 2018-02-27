@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hBu-ro-ASq" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hBu-ro-ASq" id="yx5-ZJ-rdj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qra-Fl-6S8">
+                        <rect key="frame" x="10" y="10" width="150" height="79.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="qVS-s0-Wez"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAy-pd-TXL">
+                        <rect key="frame" x="170" y="10" width="140" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jme-2X-YV6">
+                        <rect key="frame" x="170" y="73.5" width="24" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="0" image="studentNum">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EAy-pd-TXL" firstAttribute="top" secondItem="qra-Fl-6S8" secondAttribute="top" id="0Uv-TK-IbH"/>
+                    <constraint firstItem="qra-Fl-6S8" firstAttribute="top" secondItem="yx5-ZJ-rdj" secondAttribute="top" constant="10" id="8Y7-lz-71Q"/>
+                    <constraint firstItem="Jme-2X-YV6" firstAttribute="bottom" secondItem="qra-Fl-6S8" secondAttribute="bottom" id="Sfl-MN-fAB"/>
+                    <constraint firstAttribute="trailing" secondItem="EAy-pd-TXL" secondAttribute="trailing" constant="10" id="X9h-w6-nyZ"/>
+                    <constraint firstAttribute="bottom" secondItem="qra-Fl-6S8" secondAttribute="bottom" constant="10" id="gcr-0h-fth"/>
+                    <constraint firstItem="EAy-pd-TXL" firstAttribute="leading" secondItem="qra-Fl-6S8" secondAttribute="trailing" constant="10" id="mcY-ZE-qyQ"/>
+                    <constraint firstItem="qra-Fl-6S8" firstAttribute="leading" secondItem="yx5-ZJ-rdj" secondAttribute="leading" constant="10" id="sV3-se-eg2"/>
+                    <constraint firstItem="Jme-2X-YV6" firstAttribute="leading" secondItem="qra-Fl-6S8" secondAttribute="trailing" constant="10" id="uDW-fJ-Omr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconView" destination="qra-Fl-6S8" id="t1D-l5-4Kh"/>
+                <outlet property="nameView" destination="EAy-pd-TXL" id="FMF-cV-9Zo"/>
+                <outlet property="numView" destination="Jme-2X-YV6" id="4Bq-hK-UhY"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="studentNum" width="16" height="16"/>
+    </resources>
+</document>

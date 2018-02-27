@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B496FC97EC9E225937926A /* Pods_RAC_____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CD8FF65E7ADA9D59DA4D59 /* Pods_RAC_____Tests.framework */; };
+		710A82BF20429F3800ABD5F5 /* LLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82BE20429F3800ABD5F5 /* LLView.m */; };
+		710A82C22042D44400ABD5F5 /* RAC_CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82C12042D44400ABD5F5 /* RAC_CommonMethods.m */; };
+		710A82D92044E2DC00ABD5F5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82D82044E2DC00ABD5F5 /* TableViewController.m */; };
+		710A82E12044E4CA00ABD5F5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82E02044E4CA00ABD5F5 /* TableViewCell.m */; };
+		710A82E42044E4E300ABD5F5 /* TableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82E32044E4E300ABD5F5 /* TableModel.m */; };
+		710A82E72044E50000ABD5F5 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82E62044E50000ABD5F5 /* TableViewModel.m */; };
+		710A82EA2044E51B00ABD5F5 /* TableCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82E92044E51B00ABD5F5 /* TableCellViewModel.m */; };
+		710A82F12044E98200ABD5F5 /* LLServerStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A82EF2044E98200ABD5F5 /* LLServerStation.m */; };
+		710A82F62044F8BE00ABD5F5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710A82F52044F8BE00ABD5F5 /* TableViewCell.xib */; };
+		714EC75D203E889F00341E8C /* RAC_Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 714EC75C203E889F00341E8C /* RAC_Sequence.m */; };
+		714EC75F203E897B00341E8C /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 714EC75E203E897B00341E8C /* flags.plist */; };
+		714EC762203E98CD00341E8C /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 714EC761203E98CD00341E8C /* Flag.m */; };
+		714EC765203E9B9400341E8C /* RAC_Advanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 714EC764203E9B9400341E8C /* RAC_Advanced.m */; };
 		71EBB4DD203BB72D00481331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB4DC203BB72D00481331 /* AppDelegate.m */; };
 		71EBB4E0203BB72D00481331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB4DF203BB72D00481331 /* ViewController.m */; };
 		71EBB4E3203BB72D00481331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EBB4E1203BB72D00481331 /* Main.storyboard */; };
@@ -15,6 +29,9 @@
 		71EBB4EB203BB72D00481331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB4EA203BB72D00481331 /* main.m */; };
 		71EBB4F5203BB72D00481331 /* RAC_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB4F4203BB72D00481331 /* RAC_____Tests.m */; };
 		71EBB500203BB72D00481331 /* RAC_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB4FF203BB72D00481331 /* RAC_____UITests.m */; };
+		71EBB516203BDA2000481331 /* RAC_Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBB515203BDA2000481331 /* RAC_Basic.m */; };
+		9BF14AC0E36E154E65141A81 /* Pods_RAC_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDE1027C0AC3BE2C79566FA /* Pods_RAC_____.framework */; };
+		A9D341BF9A87DCF6F6AADD6B /* Pods_RAC_____UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF841D54932E43E1837243 /* Pods_RAC_____UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		612CA1D35BC48FDB8899EB82 /* Pods-RAC的使用练习UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习UITests/Pods-RAC的使用练习UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		710A82BD20429F3800ABD5F5 /* LLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLView.h; sourceTree = "<group>"; };
+		710A82BE20429F3800ABD5F5 /* LLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLView.m; sourceTree = "<group>"; };
+		710A82C02042D44400ABD5F5 /* RAC_CommonMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_CommonMethods.h; sourceTree = "<group>"; };
+		710A82C12042D44400ABD5F5 /* RAC_CommonMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_CommonMethods.m; sourceTree = "<group>"; };
+		710A82D72044E2DC00ABD5F5 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		710A82D82044E2DC00ABD5F5 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		710A82DF2044E4CA00ABD5F5 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		710A82E02044E4CA00ABD5F5 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		710A82E22044E4E300ABD5F5 /* TableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableModel.h; sourceTree = "<group>"; };
+		710A82E32044E4E300ABD5F5 /* TableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableModel.m; sourceTree = "<group>"; };
+		710A82E52044E50000ABD5F5 /* TableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		710A82E62044E50000ABD5F5 /* TableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		710A82E82044E51B00ABD5F5 /* TableCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellViewModel.h; sourceTree = "<group>"; };
+		710A82E92044E51B00ABD5F5 /* TableCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellViewModel.m; sourceTree = "<group>"; };
+		710A82EF2044E98200ABD5F5 /* LLServerStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLServerStation.m; sourceTree = "<group>"; };
+		710A82F02044E98200ABD5F5 /* LLServerStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLServerStation.h; sourceTree = "<group>"; };
+		710A82F42044F1C300ABD5F5 /* ViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelProtocol.h; sourceTree = "<group>"; };
+		710A82F52044F8BE00ABD5F5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		714EC75B203E889F00341E8C /* RAC_Sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Sequence.h; sourceTree = "<group>"; };
+		714EC75C203E889F00341E8C /* RAC_Sequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_Sequence.m; sourceTree = "<group>"; };
+		714EC75E203E897B00341E8C /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		714EC760203E98CD00341E8C /* Flag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		714EC761203E98CD00341E8C /* Flag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
+		714EC763203E9B9400341E8C /* RAC_Advanced.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Advanced.h; sourceTree = "<group>"; };
+		714EC764203E9B9400341E8C /* RAC_Advanced.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_Advanced.m; sourceTree = "<group>"; };
 		71EBB4D8203BB72D00481331 /* RAC的使用练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC的使用练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EBB4DB203BB72D00481331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71EBB4DC203BB72D00481331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +94,17 @@
 		71EBB4FB203BB72D00481331 /* RAC的使用练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC的使用练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EBB4FF203BB72D00481331 /* RAC_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC_____UITests.m"; sourceTree = "<group>"; };
 		71EBB501203BB72D00481331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EBB50F203BD36300481331 /* RACText.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACText.pch; sourceTree = "<group>"; };
+		71EBB514203BDA2000481331 /* RAC_Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Basic.h; sourceTree = "<group>"; };
+		71EBB515203BDA2000481331 /* RAC_Basic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_Basic.m; sourceTree = "<group>"; };
+		83BF841D54932E43E1837243 /* Pods_RAC_____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC_____UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDE1027C0AC3BE2C79566FA /* Pods_RAC_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5227C9250E4E9E93EB1E4C /* Pods-RAC的使用练习Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习Tests/Pods-RAC的使用练习Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C90D15DB93BD5DAD961FC2 /* Pods-RAC的使用练习Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习Tests/Pods-RAC的使用练习Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DA7946A629B9087B29EF0B33 /* Pods-RAC的使用练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习/Pods-RAC的使用练习.debug.xcconfig"; sourceTree = "<group>"; };
+		E6CD8FF65E7ADA9D59DA4D59 /* Pods_RAC_____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC_____Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D58B84184F8A1D237C8EB5 /* Pods-RAC的使用练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习/Pods-RAC的使用练习.release.xcconfig"; sourceTree = "<group>"; };
+		F41C11993041172CD7FABF68 /* Pods-RAC的使用练习UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的使用练习UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的使用练习UITests/Pods-RAC的使用练习UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF14AC0E36E154E65141A81 /* Pods_RAC_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B496FC97EC9E225937926A /* Pods_RAC_____Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +128,116 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D341BF9A87DCF6F6AADD6B /* Pods_RAC_____UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38DF380087FAD438A9946BC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7946A629B9087B29EF0B33 /* Pods-RAC的使用练习.debug.xcconfig */,
+				F1D58B84184F8A1D237C8EB5 /* Pods-RAC的使用练习.release.xcconfig */,
+				BB5227C9250E4E9E93EB1E4C /* Pods-RAC的使用练习Tests.debug.xcconfig */,
+				C7C90D15DB93BD5DAD961FC2 /* Pods-RAC的使用练习Tests.release.xcconfig */,
+				612CA1D35BC48FDB8899EB82 /* Pods-RAC的使用练习UITests.debug.xcconfig */,
+				F41C11993041172CD7FABF68 /* Pods-RAC的使用练习UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68B96FCDA34066EA0A4CD1FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE1027C0AC3BE2C79566FA /* Pods_RAC_____.framework */,
+				E6CD8FF65E7ADA9D59DA4D59 /* Pods_RAC_____Tests.framework */,
+				83BF841D54932E43E1837243 /* Pods_RAC_____UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		710A82BC20429F0800ABD5F5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				714EC760203E98CD00341E8C /* Flag.h */,
+				714EC761203E98CD00341E8C /* Flag.m */,
+				710A82BD20429F3800ABD5F5 /* LLView.h */,
+				710A82BE20429F3800ABD5F5 /* LLView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		710A82DA2044E44E00ABD5F5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				710A82EE2044E8FD00ABD5F5 /* Network */,
+				710A82F32044F18700ABD5F5 /* Protocol */,
+				710A82DE2044E48400ABD5F5 /* ViewModel */,
+				710A82DD2044E47D00ABD5F5 /* Model */,
+				710A82DC2044E47500ABD5F5 /* View */,
+				710A82DB2044E46600ABD5F5 /* Controller */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		710A82DB2044E46600ABD5F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				710A82D72044E2DC00ABD5F5 /* TableViewController.h */,
+				710A82D82044E2DC00ABD5F5 /* TableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		710A82DC2044E47500ABD5F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				710A82DF2044E4CA00ABD5F5 /* TableViewCell.h */,
+				710A82E02044E4CA00ABD5F5 /* TableViewCell.m */,
+				710A82F52044F8BE00ABD5F5 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		710A82DD2044E47D00ABD5F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				710A82E22044E4E300ABD5F5 /* TableModel.h */,
+				710A82E32044E4E300ABD5F5 /* TableModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		710A82DE2044E48400ABD5F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				710A82E52044E50000ABD5F5 /* TableViewModel.h */,
+				710A82E62044E50000ABD5F5 /* TableViewModel.m */,
+				710A82E82044E51B00ABD5F5 /* TableCellViewModel.h */,
+				710A82E92044E51B00ABD5F5 /* TableCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		710A82EE2044E8FD00ABD5F5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				710A82F02044E98200ABD5F5 /* LLServerStation.h */,
+				710A82EF2044E98200ABD5F5 /* LLServerStation.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		710A82F32044F18700ABD5F5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				710A82F42044F1C300ABD5F5 /* ViewModelProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		71EBB4CF203BB72D00481331 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +245,8 @@
 				71EBB4F3203BB72D00481331 /* RAC的使用练习Tests */,
 				71EBB4FE203BB72D00481331 /* RAC的使用练习UITests */,
 				71EBB4D9203BB72D00481331 /* Products */,
+				38DF380087FAD438A9946BC9 /* Pods */,
+				68B96FCDA34066EA0A4CD1FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +263,13 @@
 		71EBB4DA203BB72D00481331 /* RAC的使用练习 */ = {
 			isa = PBXGroup;
 			children = (
-				71EBB4DB203BB72D00481331 /* AppDelegate.h */,
-				71EBB4DC203BB72D00481331 /* AppDelegate.m */,
 				71EBB4DE203BB72D00481331 /* ViewController.h */,
 				71EBB4DF203BB72D00481331 /* ViewController.m */,
-				71EBB4E1203BB72D00481331 /* Main.storyboard */,
-				71EBB4E4203BB72D00481331 /* Assets.xcassets */,
-				71EBB4E6203BB72D00481331 /* LaunchScreen.storyboard */,
+				710A82DA2044E44E00ABD5F5 /* MVVM */,
+				71EBB50E203BD31200481331 /* RAC Test */,
+				710A82BC20429F0800ABD5F5 /* Class */,
+				71EBB50D203BD30700481331 /* Other */,
 				71EBB4E9203BB72D00481331 /* Info.plist */,
-				71EBB4EA203BB72D00481331 /* main.m */,
 			);
 			path = "RAC的使用练习";
 			sourceTree = "<group>";
@@ -132,6 +292,36 @@
 			path = "RAC的使用练习UITests";
 			sourceTree = "<group>";
 		};
+		71EBB50D203BD30700481331 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				71EBB50F203BD36300481331 /* RACText.pch */,
+				714EC75E203E897B00341E8C /* flags.plist */,
+				71EBB4DB203BB72D00481331 /* AppDelegate.h */,
+				71EBB4DC203BB72D00481331 /* AppDelegate.m */,
+				71EBB4E1203BB72D00481331 /* Main.storyboard */,
+				71EBB4E4203BB72D00481331 /* Assets.xcassets */,
+				71EBB4E6203BB72D00481331 /* LaunchScreen.storyboard */,
+				71EBB4EA203BB72D00481331 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		71EBB50E203BD31200481331 /* RAC Test */ = {
+			isa = PBXGroup;
+			children = (
+				71EBB514203BDA2000481331 /* RAC_Basic.h */,
+				71EBB515203BDA2000481331 /* RAC_Basic.m */,
+				714EC75B203E889F00341E8C /* RAC_Sequence.h */,
+				714EC75C203E889F00341E8C /* RAC_Sequence.m */,
+				714EC763203E9B9400341E8C /* RAC_Advanced.h */,
+				714EC764203E9B9400341E8C /* RAC_Advanced.m */,
+				710A82C02042D44400ABD5F5 /* RAC_CommonMethods.h */,
+				710A82C12042D44400ABD5F5 /* RAC_CommonMethods.m */,
+			);
+			path = "RAC Test";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71EBB504203BB72D00481331 /* Build configuration list for PBXNativeTarget "RAC的使用练习" */;
 			buildPhases = (
+				C454D24E356E0BBFCFC90C9D /* [CP] Check Pods Manifest.lock */,
 				71EBB4D4203BB72D00481331 /* Sources */,
 				71EBB4D5203BB72D00481331 /* Frameworks */,
 				71EBB4D6203BB72D00481331 /* Resources */,
+				32B892C7466262A4B2F0F3C6 /* [CP] Embed Pods Frameworks */,
+				1FD5DDAD406D719E5A5FC97B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71EBB507203BB72D00481331 /* Build configuration list for PBXNativeTarget "RAC的使用练习Tests" */;
 			buildPhases = (
+				BB2501D2F81B3CE63284EC5C /* [CP] Check Pods Manifest.lock */,
 				71EBB4EC203BB72D00481331 /* Sources */,
 				71EBB4ED203BB72D00481331 /* Frameworks */,
 				71EBB4EE203BB72D00481331 /* Resources */,
+				C43663D3BF76736AECEC3F0B /* [CP] Embed Pods Frameworks */,
+				FC60701AA3FE8B3E855609A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71EBB50A203BB72D00481331 /* Build configuration list for PBXNativeTarget "RAC的使用练习UITests" */;
 			buildPhases = (
+				3790725CE09A49D88E5CB76B /* [CP] Check Pods Manifest.lock */,
 				71EBB4F7203BB72D00481331 /* Sources */,
 				71EBB4F8203BB72D00481331 /* Frameworks */,
 				71EBB4F9203BB72D00481331 /* Resources */,
+				5160C657F7EF130C839B91AD /* [CP] Embed Pods Frameworks */,
+				893A01645B03B8283C918C53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +438,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EBB4E8203BB72D00481331 /* LaunchScreen.storyboard in Resources */,
+				710A82F62044F8BE00ABD5F5 /* TableViewCell.xib in Resources */,
 				71EBB4E5203BB72D00481331 /* Assets.xcassets in Resources */,
+				714EC75F203E897B00341E8C /* flags.plist in Resources */,
 				71EBB4E3203BB72D00481331 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +461,182 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FD5DDAD406D719E5A5FC97B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习/Pods-RAC的使用练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B892C7466262A4B2F0F3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习/Pods-RAC的使用练习-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习/Pods-RAC的使用练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3790725CE09A49D88E5CB76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC的使用练习UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5160C657F7EF130C839B91AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习UITests/Pods-RAC的使用练习UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893A01645B03B8283C918C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习UITests/Pods-RAC的使用练习UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2501D2F81B3CE63284EC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC的使用练习Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43663D3BF76736AECEC3F0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习Tests/Pods-RAC的使用练习Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C454D24E356E0BBFCFC90C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC的使用练习-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC60701AA3FE8B3E855609A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的使用练习Tests/Pods-RAC的使用练习Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71EBB4D4203BB72D00481331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710A82E72044E50000ABD5F5 /* TableViewModel.m in Sources */,
+				710A82E42044E4E300ABD5F5 /* TableModel.m in Sources */,
 				71EBB4E0203BB72D00481331 /* ViewController.m in Sources */,
+				714EC762203E98CD00341E8C /* Flag.m in Sources */,
+				714EC765203E9B9400341E8C /* RAC_Advanced.m in Sources */,
+				710A82D92044E2DC00ABD5F5 /* TableViewController.m in Sources */,
+				714EC75D203E889F00341E8C /* RAC_Sequence.m in Sources */,
+				71EBB516203BDA2000481331 /* RAC_Basic.m in Sources */,
 				71EBB4EB203BB72D00481331 /* main.m in Sources */,
+				710A82BF20429F3800ABD5F5 /* LLView.m in Sources */,
 				71EBB4DD203BB72D00481331 /* AppDelegate.m in Sources */,
+				710A82EA2044E51B00ABD5F5 /* TableCellViewModel.m in Sources */,
+				710A82F12044E98200ABD5F5 /* LLServerStation.m in Sources */,
+				710A82E12044E4CA00ABD5F5 /* TableViewCell.m in Sources */,
+				710A82C22042D44400ABD5F5 /* RAC_CommonMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +797,12 @@
 		};
 		71EBB505203BB72D00481331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7946A629B9087B29EF0B33 /* Pods-RAC的使用练习.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G6VWF999S;
+				GCC_PREFIX_HEADER = "RAC的使用练习/Other/RACText.pch";
 				INFOPLIST_FILE = "RAC的使用练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ray.RAC-----";
@@ -442,10 +813,12 @@
 		};
 		71EBB506203BB72D00481331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D58B84184F8A1D237C8EB5 /* Pods-RAC的使用练习.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G6VWF999S;
+				GCC_PREFIX_HEADER = "RAC的使用练习/Other/RACText.pch";
 				INFOPLIST_FILE = "RAC的使用练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ray.RAC-----";
@@ -456,6 +829,7 @@
 		};
 		71EBB508203BB72D00481331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5227C9250E4E9E93EB1E4C /* Pods-RAC的使用练习Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +845,7 @@
 		};
 		71EBB509203BB72D00481331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C90D15DB93BD5DAD961FC2 /* Pods-RAC的使用练习Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +861,7 @@
 		};
 		71EBB50B203BB72D00481331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612CA1D35BC48FDB8899EB82 /* Pods-RAC的使用练习UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G6VWF999S;
@@ -500,6 +876,7 @@
 		};
 		71EBB50C203BB72D00481331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41C11993041172CD7FABF68 /* Pods-RAC的使用练习UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G6VWF999S;
